@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "bun ./index.html",
+    "build": "bun build index.html --outdir dist && cp ./cv.pdf ./dist"
+  },
+  "name": "lyoha.info",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
