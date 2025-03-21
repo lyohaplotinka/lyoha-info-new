@@ -1,4 +1,5 @@
-import.meta.hot.accept();
+import './reset.css'
+import './style.css'
 
 function calculateAge(fromDate: Date): string {
   const msDiff = Date.now() - fromDate.getTime();
