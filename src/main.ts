@@ -8,7 +8,7 @@ function calculateAge(fromDate: Date): string {
 
 window.addEventListener("load", () => {
   window.age.innerText = calculateAge(new Date(1996, 9, 9));
-  window.workExp.innerText = calculateAge(new Date(2017, 8, 13));
+  window.workExp.innerText = calculateAge(new Date(2018, 8, 13));
 });
 
 declare global {
